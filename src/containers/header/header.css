@@ -103,7 +103,7 @@
 
 .gpt3__header-image img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 1050px) {
@@ -114,6 +114,7 @@
   .gpt3__header-content {
     margin: 0 0 3rem;
   }
+
 }
 
 @media screen and (max-width: 650px) {
