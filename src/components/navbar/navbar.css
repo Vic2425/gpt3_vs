@@ -88,6 +88,7 @@
   min-width: 210px;
   border-radius: 5px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .gpt3__navbar-menu_container p {
@@ -110,9 +111,9 @@
 }
 
 @media screen and (max-width: 700px) {
-    .gpt3__navbar {
-        padding: 2rem 4rem;
-    }
+  .gpt3__navbar {
+    padding: 2rem 4rem;
+  }
 }
 
 /* mobile devices */
